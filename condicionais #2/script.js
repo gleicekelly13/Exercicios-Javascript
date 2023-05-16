@@ -16,6 +16,25 @@ console.log(x != y);
 
 //-------------------------------------------------//
 
+// Multi-condicionais
+let idade1 = 18;
+
+if(idade >= 18) {
+    if(idade <60) {
+        console.log("Você é um adulto")
+    }
+} //Resultado não é exato 
+
+if(idade1 < 18){  //resultado mais exato
+    console.log("Você é uma criança")
+} if(idade1 >= 18 && idade1 < 60) {
+    console.log("Você é um adulto");
+} if (idade1 >= 60) {
+    console.log("Você é um idoso")
+} 
+
+//--------------------------------------------------//
+
 // Switch
 let area = "front-end";
 
