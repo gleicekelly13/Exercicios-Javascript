@@ -35,6 +35,7 @@ if(idade1 < 18){  //resultado mais exato
 
 //--------------------------------------------------//
 
+//Condicional ternária
 let age = 18;  
 let isAdult = age >= 18 ? true : false;
 console.log(isAdult);
