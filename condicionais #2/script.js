@@ -35,6 +35,13 @@ if(idade1 < 18){  //resultado mais exato
 
 //--------------------------------------------------//
 
+let age = 18;  
+let isAdult = age >= 18 ? true : false;
+console.log(isAdult);
+// o sinal de (?) indica que é uma condicional ternária
+
+//-----------------------------------------------------//
+
 // Switch
 let area = "front-end";
 
