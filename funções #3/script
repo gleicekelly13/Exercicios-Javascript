@@ -1,0 +1,4 @@
+function testeFun(param1, param2) {  // param1 e param2 são parâmetros
+    console.log(param1 + param2);
+}
+testeFun("Gleice ", "Kelly"); //As strings "Gleice" e "Kelly" são argumentos
