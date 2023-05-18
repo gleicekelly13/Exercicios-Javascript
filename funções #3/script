@@ -18,3 +18,15 @@ function nomeCompleto(nome, sobrenome) {
 }
 nomeCompleto("Gleice", "Kelly");  //essa função pode ser usada quantas vezes quiser
 
+//---------------------------------------------------------------------------------//
+//Função com retorno condicional
+
+function maiorDeIdade(idade) {
+    if(idade >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+let verificacao = maiorDeIdade(18);
+console.log(verificacao);
