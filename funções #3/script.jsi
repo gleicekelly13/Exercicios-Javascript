@@ -62,8 +62,17 @@ console.log(`${pct}% de ${x} é ${y}`)
     
 //---------------------------------//
 //Exercício: criar uma função que valide usuário e senha
+function validar(usuário, senha) {
+   if(usuário == "Gleice" && senha == 123) {
+      console.log('Acesso concedido');
 
-    
+ } else {
+      console.log('Acesso negado');
+}
+let usuário = "Gleice";
+let senha = 123;
+validacao = validar(usuario, senha);
+
     
     
     
