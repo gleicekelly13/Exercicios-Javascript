@@ -60,7 +60,9 @@ let y = 10;
 let pct = calcPct(x, y);
 console.log(`${pct}% de ${x} é ${y}`)
     
-    
+//---------------------------------//
+//Exercício: criar uma função que valide usuário e senha
+
     
     
     
