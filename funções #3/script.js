@@ -73,8 +73,22 @@ let usuário = "Gleice";
 let senha = 123;
 validacao = validar(usuario, senha);
 
-    
-    
+//---------------------------------------//
+function validar(usuario, senha) {
+    if(usuario == "Gleice" && senha == 123) {
+       return true 
+   } else {
+       return false 
+   }    
+}
+let usuario = "gleice";
+let senha = 123;
+let validacao = validar(usuario, senha);
+if(validacao) {
+    console.log("Acesso concedido");
+} else {
+    console.log("Acesso negado");
+}
     
     
     
