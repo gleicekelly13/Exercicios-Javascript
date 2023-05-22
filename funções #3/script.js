@@ -120,3 +120,9 @@ if(validacao) {
     return x + y;
  }
  console.log(somar(10, 5));
+ 
+ //--------------------------------------------//
+ //forma mais resumida 
+ 
+ const somar = (x, y) => x + y;
+ console.log(somar(10, 5));
