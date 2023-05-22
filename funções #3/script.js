@@ -114,4 +114,9 @@ if(validacao) {
  let quartos = 3;
  let preco = calcularImovel(metragem, quartos);
  console.log(`A casa custa R$ ${preco});
-    
+ //---------------------------------------------//
+ //arrow function
+ const somar = (x, y) => {
+    return x + y;
+ }
+ console.log(somar(10, 5));
