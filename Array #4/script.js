@@ -13,3 +13,7 @@ carros[1] = 'Audi';
 //3. Adicionar o Volvo à lista
 console.log('3. Lista com Volvo: ');
 console.log(carros);
+
+//-------------------------------------------//
+//4. Exibir quantos itens têm no array
+console.log('4. itens no array: ');
