@@ -121,8 +121,19 @@ if(validacao) {
  }
  console.log(somar(10, 5));
  
+
+
+
+ 
  //--------------------------------------------//
  //forma mais resumida 
  
  const somar = (x, y) => x + y;
  console.log(somar(10, 5));
+ 
+
+//-------------------------------------//
+ const sobrenome = (sob) => 'Gleice' + sob;
+ console.log(sobrenome('Kelly'));
+ 
+ 
