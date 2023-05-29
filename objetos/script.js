@@ -19,3 +19,4 @@ let personagem = {
     }
  }
  console.log('${personagem.nome} tem ${personagem.idade anos.');
+ console.log(personagem.caracteristicas.esperteza);
