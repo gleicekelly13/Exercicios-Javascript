@@ -17,3 +17,16 @@ console.log(carros);
 //-------------------------------------------//
 //4. Exibir quantos itens têm no array
 console.log('4. itens no array: ');
+
+//------------------------------------------//
+//É possível colocar um array dentro de um objeto
+let personagem = {
+  nome = 'Gleice',
+  idade = 32,
+  carros: [
+    {modelo:'Fiat', cor:'preto'},
+    {modelo:'Ferrari', cor:'vermelho'}
+     
+  ]
+}
+console.log(personagem.carros[1].modelo);
