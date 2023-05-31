@@ -15,9 +15,14 @@ let personagem = {
   caracteristicas: {
        força: 20,
        esperteza: 50,
-        agilidade: 40
+       agilidade: 40
     }
  }
  console.log('${personagem.nome} tem ${personagem.idade anos.');
  console.log(personagem.caracteristicas.esperteza);
  console.log(personagem.olhos[1]);
+
+//---------------------------------------------------------------//
+//É possível fazer alteração dentro do próprio array 
+ personagem.olhos.push('castanho');
+ console.log(personagem.olhos);
