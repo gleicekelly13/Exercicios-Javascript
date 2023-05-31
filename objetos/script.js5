@@ -9,7 +9,7 @@ console.log(personagem);
 //Um objeto pode ser criado dentro de outro objeto
 let personagem = {
   nome:'Gleice',
-  idade: 90,
+  idade: 32,
   pais:'Brasil',
   olhos:['verde', 'azul'],
   caracteristicas: {
