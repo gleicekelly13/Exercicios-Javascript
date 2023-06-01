@@ -26,3 +26,16 @@ let personagem = {
 //É possível fazer alteração dentro do próprio array 
  personagem.olhos.push('castanho');
  console.log(personagem.olhos);
+
+//------------------------------------------------------//
+//Função dentro de objeto
+let pessoa = {
+   nome:'Gleice',
+   sobrenome:'Kelly',
+   idade:32,
+   nomeCompleto: function () {
+        return `${this.nome} ${this.sobrenome}`;
+     }
+}
+
+console.log(pessoa.nomeCompleto());
