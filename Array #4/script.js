@@ -35,3 +35,11 @@ let personagem = {
   ]
 }
 console.log(personagem.carros[1].modelo);
+
+//--------------------------------------------------//
+//Loop dentro do array
+let cores = ['preto', 'branco', 'azul', 'vermelho'];
+cores.push('verde');
+for(let n = 0; n < cores.length; n++) {
+    console.log(cores[n]);
+}
