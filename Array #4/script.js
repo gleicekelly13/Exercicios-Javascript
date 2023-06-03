@@ -43,3 +43,11 @@ cores.push('verde');
 for(let n = 0; n < cores.length; n++) {
     console.log(cores[n]);
 }
+
+//---------------------------------------------------------//
+//Forma mais resumida
+let cores = ['preto', 'branco', 'azul', 'vermelho'];
+cores.push('verde');
+for(let i in cores) {
+    console.log(cores[i]);
+}
