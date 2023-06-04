@@ -51,3 +51,10 @@ cores.push('verde');
 for(let i in cores) {
     console.log(cores[i]);
 }
+
+//-----------------------------------------------------------//
+let cores = ['preto', 'branco', 'azul', 'vermelho'];
+cores.push('verde');
+for(let cor of cores) { 
+    console.log(cor);  //cor vai ser o próprio valor
+}
