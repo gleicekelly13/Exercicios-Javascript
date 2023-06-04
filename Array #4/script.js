@@ -146,34 +146,18 @@ for(let n = 0; n < cores.length; n++) {
 ​
 47
 //---------------------------------------------------------//
-48
 //Forma mais resumida
-49
 let cores = ['preto', 'branco', 'azul', 'vermelho'];
-50
 cores.push('verde');
-51
 for(let i in cores) {
-52
     console.log(cores[i]); // i vai pegar a cor específica
-53
 }
-54
-​
-55
 //-----------------------------------------------------------//
-56
 let cores = ['preto', 'branco', 'azul', 'vermelho'];
-57
 cores.push('verde');
-58
 for(let cor of cores) { 
-59
     console.log(cor);  //cor vai ser o próprio valor
-60
 }
-61
-​
 
 //-----------------------------------------------------------//
 let cores = ['preto', 'branco', 'azul', 'vermelho'];
