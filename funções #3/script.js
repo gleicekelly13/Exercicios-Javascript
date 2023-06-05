@@ -91,7 +91,7 @@ if(validacao) {
 }
    
 //-----------------------------------------//
- funciona calcularImovel(metragem, quartos) {
+ function calcularImovel(metragem, quartos) {
     let m2 = 3000;
     let preco = 0;
      
@@ -105,8 +105,6 @@ if(validacao) {
        case3:
            preco = metragem * (m2 * 1.5);
            break;
-    
-
       }
       return preco;
  }
@@ -121,17 +119,12 @@ if(validacao) {
  }
  console.log(somar(10, 5));
  
-
-
-
- 
  //--------------------------------------------//
  //forma mais resumida 
  
  const somar = (x, y) => x + y;
  console.log(somar(10, 5));
  
-
 //-------------------------------------//
  const sobrenome = (sob) => 'Gleice' + sob;
  console.log(sobrenome('Kelly'));
