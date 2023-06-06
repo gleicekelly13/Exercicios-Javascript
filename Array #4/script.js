@@ -98,3 +98,12 @@ cores.push('verde');
 for(let cor of cores) { 
     console.log(cor);  //cor vai ser o próprio valor
 }
+
+//---------------------------------------------------------//
+//Função que retorna um novo array
+let fruits = ['Banana', 'Laranja', 'Maça', 'Pêra'];
+
+let bigFruits = fruits.filter((item) => {
+    return item.length > 4;
+})
+console.log(bigFruits);
