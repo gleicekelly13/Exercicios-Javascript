@@ -132,4 +132,14 @@ cars.sort((a,b) =>{
 })
 console.log(cars);
   
-  
+//------------------------------------------------//
+let cars = [
+    {brand:'Fiat', year:2022},
+    {brand:'BMW', year:2018},
+    {brand:'Ferrari', year:2020},
+    {brand:'Wolsksvagem', year:1990}
+]
+cars.sort((a,b) => {
+    return a.year - b.year;
+});
+console.log(cars);
