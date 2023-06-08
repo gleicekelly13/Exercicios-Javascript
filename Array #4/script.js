@@ -107,3 +107,9 @@ let bigFruits = fruits.filter((item) => {
     return item.length > 4;
 })
 console.log(bigFruits);
+
+//--------------------------------------------------------//
+//Ordenação de array
+let fruits = ['Maça', 'Uva', 'Laranja', 'Banana'];
+fruits.sort();  //Altera a ordem do array em ordem alfabética
+fruits.reverse();  //Inverte a ordem do array
