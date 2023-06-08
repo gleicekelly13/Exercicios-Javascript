@@ -113,3 +113,23 @@ console.log(bigFruits);
 let fruits = ['Maça', 'Uva', 'Laranja', 'Banana'];
 fruits.sort();  //Altera a ordem do array em ordem alfabética
 fruits.reverse();  //Inverte a ordem do array
+
+//-------------------------------------------------------------//
+let cars = [
+    {brand:'Fiat', year:2022},
+    {brand:'BMW', year:2018},
+    {brand:'Ferrari', year:2020}
+]
+
+cars.sort((a,b) =>{
+    if(a.year > b.year) {
+        return 1;
+    } else if (a.year < b.year) {
+        return -1;
+    } else {
+        return 0
+    }
+})
+console.log(cars);
+  
+  
