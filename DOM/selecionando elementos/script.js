@@ -1,8 +1,7 @@
-function clicar() {
-    console.log("Clicou no botão");
-}
+document.getElementById("teste"); //seleciona pelo id
 
-let botao = document.querySelector('.botao');
-botao.addEventListener("click", () => {
-    clicar();
-})
+document.getElementByClassName("botao") //seleciona pelo nome da class
+
+document.getElementsByTagName("h1") //seleciona pelo nome da tag
+
+
