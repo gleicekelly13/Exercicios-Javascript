@@ -4,4 +4,6 @@ document.getElementByClassName("botao") //seleciona pelo nome da class
 
 document.getElementsByTagName("h1") //seleciona pelo nome da tag
 
+//Formas mais simples
+document.querySelector("#teste");
 
