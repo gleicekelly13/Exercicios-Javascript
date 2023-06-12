@@ -1,12 +1,25 @@
-function clicar() {
-    const teste = document.querySelector('#teste1');
-    const ul = teste.querySelector('ul');
-    //ul.innerHTML = "<li>Item alterado</li>"; //Alterou o conteúdo do 'ul'.
-    ul.innerHTML = ul.innerHTML + "<li>Item Alterado</li>" //Altera e adiciona o conteúdo no 'ul'.
-    //ul.children[0].innerHTML ="Item<strong> Alterado</strong>!"
+function clicar () {
+    //const input = document.querySelector('input');
 
-    //ul.outerHTML = "<strong>Aterado!</strong>"; //pega o elemento externo e altera todo o elemento, é pouco utilizado.
+    /*console.log(input.getAttribute('type')); //pega e mostra o que tem no atributo
 
-    console.log(ul.innerHTML); //Conteúdo que tem dentro do elemento, neste caso dentro do "ul"
-    
+    if(input.hasAttribute('placeholder')) { //Para saber se tem o atributo
+        console.log('Tem placeholder');
+    } else {
+        console.log('Não tem placeholder...');
+    } 
+
+    input.setAttribute('placeholder', 'Placeholder alterado'); //Coloca ou altera o atributo */
+
+    const input = document.querySelector('input');
+    const botao = document.querySelector('.botao');
+    //input.setAttribute('type', 'text'); 
+
+    if(input.getAttribute('type') === 'text') {
+        input.setAttribute('type', 'password');
+        botao.innerText = "Mostrar Senha";
+    } else {
+        input.setAttribute('type', 'text');
+        botao.innerText = "Ocultar Senha";
+    }
 } 
