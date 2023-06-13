@@ -10,3 +10,11 @@ function clicar() {
     console.log(ul.innerHTML); //Conteúdo que tem dentro do elemento, neste caso dentro do "ul"
     
 } 
+
+//-----------------------------------------------------------------------------//
+//Manipulando elementos 2
+/*function clicar() {
+    const teste = document.querySelector('#teste1');
+    const ul = teste.querySelector('ul');
+
+    //ul.children[0].append("(alterado)"); // o append apenas adiciona
