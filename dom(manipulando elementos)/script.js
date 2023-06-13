@@ -18,3 +18,10 @@ function clicar() {
     const ul = teste.querySelector('ul');
 
     //ul.children[0].append("(alterado)"); // o append apenas adiciona
+    //ul.children[0].innerHTML += "(alterado)"; //o innerHTML pega todo o conteúdo e substitui
+
+    let newLi =document.createElement("li");
+    newLi.innerText = "Item adicionado";
+
+    ul.prepend(newLi); //Adiciona o texto no começo
+} */
