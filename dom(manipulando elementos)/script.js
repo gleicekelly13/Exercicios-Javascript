@@ -25,3 +25,29 @@ function clicar() {
 
     ul.prepend(newLi); //Adiciona o texto no começo
 } */
+
+//-----------------------------------------------------------------------------//
+//Manipulando elementos 3
+function clicar() {
+    const teste = document.querySelector('#teste1');
+    const ul = teste.querySelector('ul');
+    
+    /*const newButton = document.createElement('button');
+    newButton.innerHTML = "Botão";
+
+    ul.before(newButton);  
+
+    let newUl = document.createElement('ul');
+    
+    for(let i = 0; i<5; i++) {
+        let newLi = document.createElement('li'); // cria os 'li'
+        newLi.innerHTML = "Item Adicionado "; //adiciona dentro do 'li'
+        newUl.append(newLi) //adiciona os 'li' dentro do 'ul'
+    }
+
+    ul.after(newUl);
+} 
+
+
+
+
