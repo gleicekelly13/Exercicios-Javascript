@@ -1,2 +1,2 @@
 # Exercícios Javascript
-<p>Repositório criado para fins de estudo, e prática dos exercícios propostos no curso B7web.</p>
+<p>Repositório criado para fins de estudo, e prática dos exercícios propostos em cursos online e tutoriais.</p>
