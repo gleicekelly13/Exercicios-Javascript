@@ -12,6 +12,12 @@ function ehMaiorDeIdade (idade) {
     }
 }
 
+/*
+function ehMaiorDeIdade (idade) {
+    return idade >= 18;
+}
+*/
+
 let idade = 34;
 let validaIdade = ehMaiorDeIdade(idade);
 
