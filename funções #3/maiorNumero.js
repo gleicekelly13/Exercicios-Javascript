@@ -20,3 +20,9 @@ let b = 10;
 let resultado_final = maiorNUmero(a, b)
 
 console.log(resultado_final);
+
+
+//SOLUÇÃO ALTERNATIVA
+/*function maiorNUmero(a, b) {
+    return a > b ? a : b;
+}*/
