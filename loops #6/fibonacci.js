@@ -7,17 +7,16 @@ Exiba os 10 primeiros números da sequência de Fibonacci usando um loop.
 let a = 0;
 let b = 1;
 
-// Exibe os primeiros números no console
-console.log(a,b);
+// Exibe o primeiro número da sequência
+console.log(a);
 
-// Calcula o próximo número da sequência
-let nextNum = a + b;
+// Loop para gerar os próximos 9 números da sequência
+for(let i = 1; i < 10; i++) {
+    console.log(b)  // Exibe o valor atual de 'b' antes da atualização
 
-// Loop para gerar os próximos 8 números da sequência
-for(let i = 1; i <= 8; i++) {
+    let nextNum = a + b;  // Calcula o próximo número somando os dois anteriores
+    
     a = b;  // Atualiza 'a' para o valor de 'b'
     b = nextNum;  // Atualiza 'b' para o próximo número da sequência
-    nextNum = a + b;  // Calcula o próximo número somando os dois anteriores
-
-    console.log(nextNum);  // Exibe o próximo número da sequência
+    
 }
