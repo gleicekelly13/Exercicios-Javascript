@@ -13,3 +13,10 @@ const multiplicaElementos = (numbers, multiplicador) => {
 console.log(multiplicaElementos([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2));
 
 
+/*
+numbers.map(...) → O método .map() percorre cada elemento do array e cria um novo array com os resultados 
+da operação dentro da função de callback.
+number => number * multiplicador → Para cada número (number) no array:
+- Ele multiplica pelo valor de multiplicador.
+- O resultado é armazenado no novo array multiplicaNumeros.
+*/
