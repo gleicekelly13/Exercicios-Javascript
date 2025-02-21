@@ -17,7 +17,6 @@ function filtrarNumerosPares (array) {  //A função recebe um array como parâm
 };
 
 //Permite que receba diferentes arrays como entrada e retorne os números pares
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];  
 const numerosPares = filtrarNumerosPares(numeros);
 
 console.log(numerosPares);
