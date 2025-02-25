@@ -20,6 +20,7 @@ let somaPares = numeros.reduce((acumulador, num) =>
 
 console.log(somaPares);
 
+// Evita criar um array intermediário e melhora a performance, economizando tempo e memória
 */
  
 /*FUNÇÃO SEM O FILTER
