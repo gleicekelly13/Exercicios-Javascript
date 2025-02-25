@@ -29,7 +29,6 @@ Caso contrário, mantém o acumulador como está.
 */
 
 //UTILIZANDO O MÉTODO `Math.max` compara o maior número atual com o próximo número do array.
-
 let maiorNumero =numeros.reduce((acumulador, numAtual) => Math.max(acumulador, numAtual), 0);
 
 console.log(maiorNumero);
