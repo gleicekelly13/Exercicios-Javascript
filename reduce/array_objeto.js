@@ -44,3 +44,9 @@ console.log(transforma_em_objeto);
 * `{}`: Quando passa o valor inicial como {} no reduce, ele define que o acumulador 
 será um objeto vazio no início do processo. O acumulador começa como um objeto {} e, ao longo das iterações, vai sendo preenchido com as chaves e valores que você define. O tipo inicial do acumulador determina como você pode trabalhar com ele. No caso de um objeto vazio {}, você pode adicionar propriedades a ele (usando acumulador[chave] = valor)
 */
+
+
+/* UTILIZANDO O `Object.fromEntries`, ELIMINA A NECESSIDADE DE DO REDUCE
+const objeto = Object.fromEntries(pessoa);
+console.log(objeto);
+*/
