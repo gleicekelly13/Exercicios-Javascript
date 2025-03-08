@@ -16,5 +16,13 @@ body {
     width: 200px;
     height: 200px; 
     background-color: blue;
-    
+    transition: background-color 0.3s ease;  /* Efeito suave */
 }
+
+.ativo {
+    background-color: red !important;  /* O !important tem a maior prioridade possível no CSS */
+}
+
+/*
+O navegador ignora qualquer outro estilo e força a cor vermelha sempre que a classe .ativo for aplicada.
+*/
