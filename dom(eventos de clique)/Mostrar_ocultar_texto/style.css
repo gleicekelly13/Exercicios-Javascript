@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#paragrafo {
+    margin-top: 30px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
