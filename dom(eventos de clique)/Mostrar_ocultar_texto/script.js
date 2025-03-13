@@ -2,12 +2,13 @@ const botao = document.querySelector('#botao');
 const paragrafo = document.querySelector('#paragrafo');
 
 function mostrarOcutarTexto() {
-    if(botao.textContent === "Mostrar/Ocultar Texto" && paragrafo.style.display === "inline-block" )  {
-        botao.innerHTML= "";
-        paragrafo.style.display = 'none';
+    if(paragrafo.style.display === "none" )  {
+        paragrafo.style.display = "block"
+        botao.textContent = "Ocultar Texto";
+        
     } else {
-        botao.innerHTML = "Mostrar/Ocultar Texto";
-        paragrafo.style.display = 'inline-block';
+        paragrafo.style.display = "none";
+        botao.textContent = "Mostrar Texto";
     }
     
 }
