@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40vh;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    background-color: #5f5e5e;
+    color: #f0ebeb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #3a3939;
+    color: #dad5d5;
+}
+
+.dark-mode h1 {
+    color: #dad5d5;
+}
+
+.dark-mode button {
+    background-color: #dbd9d9;
+    color: #1d1c1c;
+}
