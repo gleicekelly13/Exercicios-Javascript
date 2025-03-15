@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: contain;  /* Mantém a imagem inteira dentro do espaço */
+    margin-top: 20px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #a19d9d;
+    border-radius: 7px;
+}
