@@ -32,7 +32,11 @@ li {
 }
 
 button {
-    padding: 3px;
-    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
     
 }
