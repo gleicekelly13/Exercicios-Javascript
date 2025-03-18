@@ -32,4 +32,11 @@ function criarTarefa () {
 
 addTarefa.addEventListener('click', criarTarefa);
 
+// Adicionar tarefa ao pressionar Enter
+tarefa.addEventListener('keypress', (event) => {
+    if(event.key === "Enter") {
+        criarTarefa();
+    }
+})
+
 // `textContent` deifine o texto dentro de um elemento de forma mais prática, simples e eficiente
