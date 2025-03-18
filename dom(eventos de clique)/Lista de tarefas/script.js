@@ -39,4 +39,4 @@ tarefa.addEventListener('keypress', (event) => {
     }
 })
 
-// `textContent` deifine o texto dentro de um elemento de forma mais prática, simples e eficiente
+// `textContent` define o texto dentro de um elemento de forma mais prática, simples e eficiente
