@@ -2,37 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 div {
-    margin-top: 5rem;
+    margin-bottom: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-ul {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
-    margin-top: 20px;
-   
+
 }
 
-li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 250px;
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    font-size: 15px;
 }
 
 button {
-    padding: 10px 15px;
+   padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -40,3 +30,49 @@ button {
     transition: 0.3s;
     
 }
+
+/* Botão adicionar */
+#add {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#add:hover {
+    background-color: #218838;
+}
+
+/* Estilização da lista */
+ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+li {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão remover */
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+
