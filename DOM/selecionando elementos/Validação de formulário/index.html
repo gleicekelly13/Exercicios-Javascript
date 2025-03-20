@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulário</title>
+</head>
+<body>
+    <form>
+        <label for="email">Email</label><br><br> 
+        <!--O for da label igual ao id do imput, indica que a label é "representante" do input email,
+        isso tbm é importante para acessibilidade -->
+
+        <input type="email" id="email" required><br><br>
+
+        <label for="senha">Senha</label><br><br>
+
+        <input type="password" id="senha" required><br><br>
+        
+        <input type="submit" id="submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+Validação de formulário:
+
+Crie um formulário de login com email e senha.
+Ao clicar em "Enviar", verifique se ambos os campos foram preenchidos.
+Se um campo estiver vazio, exiba uma mensagem de erro.
+
+-->
